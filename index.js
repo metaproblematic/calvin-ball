@@ -7,7 +7,6 @@ var is_in_tree = false;
 var crying = false;
 
 
-/*
 //Player Two
 var score = 394;
 var last_play = "W";
@@ -15,9 +14,7 @@ var broom = "none";
 var has_ball = true;
 var is_in_tree = true;
 var crying = false;
-*/
 
-/*
 //Player Three
 var score = "f";
 var last_play = 1.5;
@@ -25,7 +22,6 @@ var broom = "brush";
 var has_ball = true;
 var is_in_tree = false;
 var crying = true;
-*/
 
 if (typeof score !== 'number') {
     score = 500;
@@ -60,8 +56,6 @@ if (has_ball === true && is_in_tree === false && crying === false) {
 if (typeof last_play === 'number') {
     score = score * last_play;
 }
-
-
 
 
 console.log(score); //332, 419.5, 900
